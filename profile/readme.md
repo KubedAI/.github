@@ -21,4 +21,3 @@
 
 :+1: Help the community
 
-:thumbsdown: Keep listening from people that *get a life* :laughing:
