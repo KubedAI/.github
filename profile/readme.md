@@ -29,7 +29,7 @@ Our project delves deep into compute and storage best practices for each deploym
 - KServe
 - Ray
 - NVIDIA Triton Inference Server
-- LWS (Lightweight Serving)
+- LWS (Leader Worker Set)
 
 For each technology, we provide:
 - Scalable architecture designs
