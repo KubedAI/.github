@@ -89,20 +89,6 @@ Our GitHub organization hosts multiple repositories, each based on a standardize
 - [`triton-on-kubernetes`](https://github.com/Kube-dAI/triton-on-kubernetes): NVIDIA Triton Inference Server deployment patterns and benchmarks on AWS.
 - [`lws-on-kubernetes`](https://github.com/Kube-dAI/lws-on-kubernetes): LWS deployment patterns and benchmarks on AWS.
 
-
-## 📖 Factory Repository Template
-
-All our projects are built upon a **Factory Repository Template**, which includes:
-
-- **Standardized Directory Structure**
-- **Docusaurus Documentation Site**: Located in the `docs/` directory.
-- **GitHub Actions Workflows**: For CI/CD and documentation deployment.
-- **Infrastructure-as-Code**: Terraform configurations for AWS resources and Helm charts for Kubernetes addons.
-- **Sample Applications and Jobs**: Example code and configurations in the `src/` directory.
-- **Observability Tools**: Integration with monitoring and logging solutions like Spark History Server and FluentBit.
-- **Automation Scripts**: Under the `scripts/` directory for setup and deployment.
-- **Contribution Guidelines and License**
-
 ## 💻 Getting Started
 
 To leverage Kube-dAI for your projects:
