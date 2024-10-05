@@ -1,5 +1,6 @@
 # Kube-dAI
 *Kube (Kubernetes) and dAI( Data and AI)*
+*Pronounce: "Cubed AI"*
 
 # Kube-dAI: Scalable Data and AI Deployment Patterns on Kubernetes
 
