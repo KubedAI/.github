@@ -1,4 +1,4 @@
-# Kube-dAI
+# Kube-dAI 🚀
 *Kube (Kubernetes) and dAI (Data and AI)*
 
 *Pronounced: "Cubed AI"*
@@ -19,36 +19,24 @@ Kube-dAI aims to empower organizations with battle-tested, scalable architecture
 
 Whether you're orchestrating large-scale data processing pipelines or deploying cutting-edge AI models, Kube-dAI provides the insights and tools you need to maximize your Kubernetes infrastructure on AWS.
 
-**Note:** While our initial focus is on AWS Cloud, we intend to extend support to other cloud providers like Google Cloud Platform (GCP) and Microsoft Azure in the future.
-
 ## 🔍 Project Focus
 
 Our project delves deep into compute and storage best practices for each deployment, covering:
 
-### Data Processing
+🔍 Focus Areas
 
-- **Apache Spark**: Including examples with various storage backends, compute configurations, autoscaling, and schedulers like YuniKorn, Volcano, and Kueue.
-- **Spark-RAPIDS**: Accelerate Spark workloads using GPUs.
-- **Apache Flink**
-- **RayData**
-- **Trino** (formerly PrestoSQL)
+ - **Data Processing Pipelines:** Optimized for Spark, Flink, Trino, and more.
+ - **Machine Learning Inference & Training:** Using KServe, RayServe, NVIDIA Triton.
+ - **Scalable Infrastructure:** Automated deployment with Terraform, Crossplane, and GitOps using ArgoCD.
+ - **GitOps:** LContinuous delivery and infrastructure management with GitOps.
 
-### Artificial Intelligence
+## 🔧 How It Works
 
-- **KServe**
-- **RayServe**
-- **RayTrain**
-- **NVIDIA Triton Inference Server**
-- **Leader Worker Set (LWS)**
+Our repositories provide everything you need to get started:
 
-For each technology, we provide:
-
-- **Scalable Architecture Designs**
-- **Performance Optimization Techniques**
-- **Resource Allocation Strategies**
-- **Storage Configuration Best Practices**
-- **Comprehensive Benchmarks**
-- **Observability Solutions**
+ - **Infrastructure as Code (IaC):** Easily deploy VPCs, EKS clusters, and essential Kubernetes add-ons on AWS.
+ - **Data & AI Workloads:** Deploy Spark, Ray, Trino, and ML models with scalable architecture.
+ - **Monitoring & Observability:** Pre-integrated tools like Prometheus, Grafana, and the Spark History Server.
 
 ## 📊 Benchmarks and Best Practices
 
@@ -62,32 +50,23 @@ Each repository includes detailed benchmarks and best practices, covering:
 - **Scheduler Performance**: Evaluations of YuniKorn, Volcano, and KubeQueue.
 - **Best Practices for Specific Workload Types**
 
-## 📂 Repository Structure
-
-Our GitHub organization hosts multiple repositories, each based on a standardized **Factory Repository Template**. This template includes:
-
-- **Docusaurus Documentation Website**: For comprehensive project documentation.
-- **GitHub Actions**: Automated CI/CD pipelines.
-- **Infrastructure-as-Code**: Terraform and Helm configurations tailored for AWS.
-- **Standardized Directory Structure**: Ensuring consistency across projects.
-
-### Repositories
+## 📂 Repositories
 
 **Data Processing:**
 
-- [`spark-on-kubernetes`](https://github.com/Kube-dAI/spark-on-kubernetes): Apache Spark deployment patterns and benchmarks on AWS.
-- [`spark-rapids-on-kubernetes`](https://github.com/Kube-dAI/spark-rapids-on-kubernetes): Apache Spark on GPUs with Spark-RAPIDS on AWS.
-- [`flink-on-kubernetes`](https://github.com/Kube-dAI/flink-on-kubernetes): Apache Flink deployment patterns and benchmarks on AWS.
-- [`raydata-on-kubernetes`](https://github.com/Kube-dAI/raydata-on-kubernetes): RayData deployment patterns and benchmarks on AWS.
-- [`trino-on-kubernetes`](https://github.com/Kube-dAI/trino-on-kubernetes): Trino deployment patterns and benchmarks on AWS.
+- 🚀 [`spark-rapids-on-kubernetes`](https://github.com/Kube-dAI/spark-rapids-on-kubernetes): The first live repository! Accelerate Apache Spark workloads using GPUs with Spark RAPIDS on AWS. Fully launched and ready to use!
+- ⏳ [`spark-on-kubernetes`](https://github.com/Kube-dAI/spark-on-kubernetes): Apache Spark deployment patterns and benchmarks on AWS. (Launching soon)
+- ⏳ [`flink-on-kubernetes`](https://github.com/Kube-dAI/flink-on-kubernetes): Apache Flink deployment patterns and benchmarks on AWS. (Launching soon)
+- ⏳ [`raydata-on-kubernetes`](https://github.com/Kube-dAI/raydata-on-kubernetes): RayData deployment patterns and benchmarks on AWS. (Launching soon)
+- ⏳ [`trino-on-kubernetes`](https://github.com/Kube-dAI/trino-on-kubernetes): Trino deployment patterns and benchmarks on AWS. (Launching soon)
+- ⏳ [`druid-on-kubernetes`](https://github.com/Kube-dAI/druid-on-kubernetes): Apache Druid deployment patterns and benchmarks on AWS. (Launching soon)
 
 **Artificial Intelligence:**
 
-- [`kserve-on-kubernetes`](https://github.com/Kube-dAI/kserve-on-kubernetes): KServe deployment patterns and benchmarks on AWS.
-- [`rayserve-on-kubernetes`](https://github.com/Kube-dAI/rayserve-on-kubernetes): RayServe deployment patterns and benchmarks on AWS.
-- [`raytrain-on-kubernetes`](https://github.com/Kube-dAI/raytrain-on-kubernetes): RayTrain deployment patterns and benchmarks on AWS.
-- [`triton-on-kubernetes`](https://github.com/Kube-dAI/triton-on-kubernetes): NVIDIA Triton Inference Server deployment patterns and benchmarks on AWS.
-- [`lws-on-kubernetes`](https://github.com/Kube-dAI/lws-on-kubernetes): LWS deployment patterns and benchmarks on AWS.
+- ⏳ [`rayserve-on-kubernetes`](https://github.com/Kube-dAI/rayserve-on-kubernetes): RayServe deployment patterns and benchmarks on AWS. (Launching soon)
+- ⏳ [`triton-on-kubernetes`](https://github.com/Kube-dAI/triton-on-kubernetes): NVIDIA Triton Inference Server deployment patterns and benchmarks on AWS. (Launching soon)
+- ⏳ [`kserve-on-kubernetes`](https://github.com/Kube-dAI/kserve-on-kubernetes): KServe deployment patterns and benchmarks on AWS. (Launching soon)
+- ⏳ [`lws-on-kubernetes`](https://github.com/Kube-dAI/lws-on-kubernetes): LWS deployment patterns and benchmarks on AWS. (Launching soon)
 
 ## 💻 Getting Started
 
@@ -111,6 +90,11 @@ We welcome contributions from the community! To contribute:
 
 Please review our [Contribution Guidelines](CONTRIBUTING.md) for more details.
 
+## 🔗 Blogs
+
+- [Medium Blogs](https://medium.com/@kubedai24) 
+- [Project Website](https://kubed.ai) (Launching soon)
+
 ## 📜 License
 
 This project is open-source and available under the [Apache License 2.0](LICENSE).
@@ -121,25 +105,16 @@ For assistance or to discuss advanced use cases:
 
 - Open an issue in the relevant repository
 - Join our community [Discord](https://discord.com/channels/1291838866990301295/1291838866990301298)
-- Explore our comprehensive [documentation](https://docs.kubedai.org) (placeholder link)
-
-## 🔗 Useful Links
-
-- [Project Website](https://kubedai.org) (placeholder link)
-- [Documentation](https://docs.kubedai.org) (placeholder link)
-- [Community Forum](https://forum.kubedai.org) (placeholder link)
-- [Blog](https://blog.kubedai.org) (placeholder link) - For the latest benchmarks and best practices
 
 ## 🌐 Stay Connected
 
-- Twitter: @Kube_dAI (placeholder)
-- LinkedIn: Kube-dAI (placeholder)
-- Discord Community: [Discord](https://discord.com/channels/1291838866990301295/1291838866990301298)
+- LinkedIn: [Kube-dAI on LinkedIn](https://www.linkedin.com/company/kube-dai/)
+- Discord Community: [Join Us on Discord](https://discord.com/channels/1291838866990301295/1291838866990301298)
 
 ## 📝 Disclaimer
 
-Please note that Kube-dAI is a community-driven project and is not affiliated with AWS or any other company. All trademarks and registered trademarks are the property of their respective owners.
+Kube-dAI is a community-driven project and is not affiliated with AWS or any other company. All trademarks and registered trademarks are the property of their respective owners.
 
 ---
 
-<p align="center">Kube-dAI: Empowering Scalable Data and AI Deployments on Kubernetes</p>
+<p align="center">Kube-dAI: Building Smarter, Faster Data and AI Platforms on Kubernetes</p>
