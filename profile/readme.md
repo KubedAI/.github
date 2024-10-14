@@ -93,7 +93,6 @@ Please review our [Contribution Guidelines](CONTRIBUTING.md) for more details.
 ## 🔗 Blogs
 
 - [Medium Blogs](https://medium.com/@kubedai24) 
-- [Project Website](https://kubed.ai) (Launching soon)
 
 ## 📜 License
 
@@ -104,17 +103,8 @@ This project is open-source and available under the [Apache License 2.0](LICENSE
 For assistance or to discuss advanced use cases:
 
 - Open an issue in the relevant repository
-- Join our community [Discord](https://discord.com/channels/1291838866990301295/1291838866990301298)
-
-## 🌐 Stay Connected
-
-- LinkedIn: [Kube-dAI on LinkedIn](https://www.linkedin.com/company/kube-dai/)
-- Discord Community: [Join Us on Discord](https://discord.com/channels/1291838866990301295/1291838866990301298)
 
 ## 📝 Disclaimer
 
 Kube-dAI is a community-driven project and is not affiliated with AWS or any other company. All trademarks and registered trademarks are the property of their respective owners.
 
----
-
-<p align="center">Kube-dAI: Building Smarter, Faster Data and AI Platforms on Kubernetes</p>
